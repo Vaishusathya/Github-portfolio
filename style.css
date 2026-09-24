@@ -1,1052 +1,174 @@
-/* =================================================
-   VAISHALI — MODERN DEVELOPER PORTFOLIO
-================================================= */
+<!-- ================= SKILLS ================= -->
 
-/* ---------- ROOT ---------- */
+<section id="skills">
 
-:root {
-    --bg: #070b14;
-    --bg-light: #0d1322;
-    --card: rgba(255, 255, 255, 0.045);
+    <div class="section-title">
+        <span>03</span>
+        <h2>Skills & Expertise</h2>
+    </div>
 
-    --white: #f8fafc;
-    --text: #cbd5e1;
-    --muted: #94a3b8;
+    <p class="section-subtitle">
+        Technologies and skills I am continuously developing
+        through learning and practical projects.
+    </p>
 
-    --blue: #38bdf8;
-    --blue-dark: #0284c7;
-    --purple: #8b5cf6;
+    <div class="skills-container">
 
-    --border: rgba(148, 163, 184, 0.15);
+        <!-- LEFT SIDE -->
 
-    --max-width: 1100px;
-}
+        <div class="skills-left">
 
+            <div class="skill-box">
 
-/* ---------- GENERAL ---------- */
+                <div class="skill-info">
+                    <div>
+                        <h3>C Programming</h3>
+                        <span>Programming</span>
+                    </div>
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+                    <strong>85%</strong>
+                </div>
 
-html {
-    scroll-behavior: smooth;
-}
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 85%;"></div>
+                </div>
 
-body {
-    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+            </div>
 
-    background:
-        radial-gradient(
-            circle at 80% 10%,
-            rgba(56, 189, 248, 0.10),
-            transparent 30%
-        ),
-        radial-gradient(
-            circle at 10% 30%,
-            rgba(139, 92, 246, 0.08),
-            transparent 30%
-        ),
-        var(--bg);
 
-    color: var(--white);
+            <div class="skill-box">
 
-    line-height: 1.7;
+                <div class="skill-info">
+                    <div>
+                        <h3>Java</h3>
+                        <span>Programming</span>
+                    </div>
 
-    overflow-x: hidden;
-}
+                    <strong>80%</strong>
+                </div>
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 80%;"></div>
+                </div>
 
-section {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 110px 25px;
-}
+            </div>
 
 
-/* =================================================
-   NAVBAR
-================================================= */
+            <div class="skill-box">
 
-header {
-    min-height: 100vh;
+                <div class="skill-info">
+                    <div>
+                        <h3>HTML</h3>
+                        <span>Web Development</span>
+                    </div>
 
-    background:
-        linear-gradient(
-            180deg,
-            rgba(7, 11, 20, 0.92),
-            rgba(7, 11, 20, 0.98)
-        );
+                    <strong>90%</strong>
+                </div>
 
-    position: relative;
-}
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 90%;"></div>
+                </div>
 
+            </div>
 
-/* glowing background */
 
-header::before {
-    content: "";
+            <div class="skill-box">
 
-    position: absolute;
+                <div class="skill-info">
+                    <div>
+                        <h3>CSS</h3>
+                        <span>Web Development</span>
+                    </div>
 
-    width: 400px;
-    height: 400px;
+                    <strong>85%</strong>
+                </div>
 
-    background: rgba(56, 189, 248, 0.08);
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 85%;"></div>
+                </div>
 
-    filter: blur(100px);
+            </div>
 
-    border-radius: 50%;
 
-    top: 100px;
-    right: -100px;
+            <div class="skill-box">
 
-    pointer-events: none;
-}
+                <div class="skill-info">
+                    <div>
+                        <h3>JavaScript</h3>
+                        <span>Web Development</span>
+                    </div>
 
+                    <strong>75%</strong>
+                </div>
 
-/* ---------- NAVBAR ---------- */
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 75%;"></div>
+                </div>
 
-.navbar {
-    max-width: var(--max-width);
+            </div>
 
-    margin: auto;
 
-    padding: 25px;
+            <div class="skill-box">
 
-    display: flex;
+                <div class="skill-info">
+                    <div>
+                        <h3>Data Structures</h3>
+                        <span>Computer Science</span>
+                    </div>
 
-    justify-content: space-between;
+                    <strong>78%</strong>
+                </div>
 
-    align-items: center;
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 78%;"></div>
+                </div>
 
-    position: relative;
+            </div>
 
-    z-index: 10;
-}
+        </div>
 
 
-/* ---------- LOGO ---------- */
+        <!-- RIGHT SIDE -->
 
-.logo {
-    font-size: 22px;
+        <div class="skills-right">
 
-    font-weight: 700;
+            <div class="skill-circle">
 
-    letter-spacing: 0.5px;
-}
+                <div class="circle">
+                    <div class="circle-content">
+                        <strong>88%</strong>
+                        <span>Git & GitHub</span>
+                    </div>
+                </div>
 
-.logo span {
-    display: inline-flex;
+            </div>
 
-    width: 36px;
-    height: 36px;
 
-    align-items: center;
-    justify-content: center;
+            <div class="skill-summary">
 
-    margin-right: 8px;
+                <span class="summary-number">06</span>
 
-    border-radius: 10px;
+                <h3>Technical Skills</h3>
 
-    background:
-        linear-gradient(
-            135deg,
-            var(--blue),
-            var(--purple)
-        );
+                <p>
+                    I continuously improve my technical skills
+                    through academic learning, practical projects
+                    and hands-on experimentation.
+                </p>
 
-    color: white;
+                <div class="skill-tags">
+                    <span>C</span>
+                    <span>Java</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>GitHub</span>
+                </div>
 
-    box-shadow:
-        0 0 25px rgba(56, 189, 248, 0.25);
-}
+            </div>
 
+        </div>
 
-/* ---------- NAV LINKS ---------- */
+    </div>
 
-.nav-links {
-    display: flex;
-
-    gap: 28px;
-}
-
-.nav-links a {
-    color: var(--muted);
-
-    font-size: 14px;
-
-    transition: 0.3s;
-}
-
-.nav-links a:hover {
-    color: var(--blue);
-}
-
-
-/* =================================================
-   HERO
-================================================= */
-
-.hero {
-    max-width: 900px;
-
-    margin: auto;
-
-    padding: 150px 25px 120px;
-
-    text-align: center;
-
-    position: relative;
-
-    z-index: 2;
-}
-
-
-/* small text */
-
-.hero-small {
-    color: var(--blue);
-
-    font-size: 13px;
-
-    font-weight: 700;
-
-    letter-spacing: 4px;
-
-    margin-bottom: 18px;
-}
-
-
-/* main heading */
-
-.hero h1 {
-    font-size: clamp(55px, 9vw, 95px);
-
-    line-height: 1;
-
-    letter-spacing: -4px;
-
-    margin-bottom: 25px;
-
-    background:
-        linear-gradient(
-            90deg,
-            #ffffff,
-            #38bdf8,
-            #a78bfa
-        );
-
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent;
-}
-
-
-/* subtitle */
-
-.hero h2 {
-    font-size: clamp(20px, 3vw, 28px);
-
-    font-weight: 500;
-
-    color: var(--white);
-
-    margin-bottom: 20px;
-}
-
-
-/* description */
-
-.hero-description {
-    max-width: 650px;
-
-    margin: auto;
-
-    color: var(--muted);
-
-    font-size: 17px;
-}
-
-
-/* ---------- HERO BUTTONS ---------- */
-
-.hero-buttons {
-    display: flex;
-
-    justify-content: center;
-
-    gap: 15px;
-
-    margin-top: 35px;
-
-    flex-wrap: wrap;
-}
-
-
-/* primary */
-
-.primary-btn {
-    padding: 13px 25px;
-
-    border-radius: 8px;
-
-    background:
-        linear-gradient(
-            135deg,
-            var(--blue),
-            var(--blue-dark)
-        );
-
-    color: #00111c;
-
-    font-weight: 700;
-
-    transition: 0.3s;
-
-    box-shadow:
-        0 10px 30px rgba(56, 189, 248, 0.15);
-}
-
-.primary-btn:hover {
-    transform: translateY(-3px);
-
-    box-shadow:
-        0 15px 35px rgba(56, 189, 248, 0.3);
-}
-
-
-/* secondary */
-
-.secondary-btn {
-    padding: 12px 25px;
-
-    border-radius: 8px;
-
-    border: 1px solid var(--border);
-
-    color: var(--white);
-
-    background: rgba(255, 255, 255, 0.03);
-
-    transition: 0.3s;
-}
-
-.secondary-btn:hover {
-    border-color: var(--blue);
-
-    color: var(--blue);
-
-    transform: translateY(-3px);
-}
-
-
-/* =================================================
-   SECTION TITLES
-================================================= */
-
-.section-title {
-    display: flex;
-
-    align-items: center;
-
-    gap: 15px;
-
-    margin-bottom: 45px;
-}
-
-.section-title span {
-    color: var(--blue);
-
-    font-size: 13px;
-
-    font-weight: 700;
-
-    letter-spacing: 2px;
-}
-
-.section-title h2 {
-    font-size: 35px;
-
-    letter-spacing: -1px;
-}
-
-
-/* subtitle */
-
-.section-subtitle {
-    color: var(--muted);
-
-    max-width: 650px;
-
-    margin-top: -25px;
-
-    margin-bottom: 35px;
-}
-
-
-/* =================================================
-   ABOUT
-================================================= */
-
-.about-card {
-    display: grid;
-
-    grid-template-columns: 2fr 1fr;
-
-    gap: 30px;
-
-    padding: 40px;
-
-    border: 1px solid var(--border);
-
-    border-radius: 18px;
-
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255, 255, 255, 0.06),
-            rgba(255, 255, 255, 0.025)
-        );
-
-    backdrop-filter: blur(12px);
-
-    transition: 0.4s;
-}
-
-.about-card:hover {
-    border-color: rgba(56, 189, 248, 0.35);
-
-    transform: translateY(-4px);
-}
-
-.about-text h3 {
-    font-size: 24px;
-
-    margin-bottom: 20px;
-}
-
-.about-text p {
-    color: var(--muted);
-
-    margin-bottom: 15px;
-}
-
-
-/* ---------- ABOUT HIGHLIGHTS ---------- */
-
-.about-highlight {
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    gap: 20px;
-}
-
-.about-highlight div {
-    padding: 18px;
-
-    border-left: 2px solid var(--blue);
-
-    background: rgba(56, 189, 248, 0.035);
-}
-
-.about-highlight strong {
-    display: block;
-
-    font-size: 27px;
-
-    color: var(--white);
-}
-
-.about-highlight span {
-    color: var(--muted);
-
-    font-size: 13px;
-}
-
-
-/* =================================================
-   EDUCATION
-================================================= */
-
-.education-card {
-    display: grid;
-
-    grid-template-columns: 160px 1fr;
-
-    gap: 30px;
-
-    padding: 35px;
-
-    border: 1px solid var(--border);
-
-    border-radius: 16px;
-
-    background: var(--card);
-
-    transition: 0.3s;
-}
-
-.education-card:hover {
-    border-color: rgba(56, 189, 248, 0.35);
-
-    transform: translateX(5px);
-}
-
-.education-year {
-    color: var(--blue);
-
-    font-weight: 700;
-
-    font-size: 14px;
-}
-
-.education-card h3 {
-    font-size: 22px;
-
-    margin-bottom: 8px;
-}
-
-.college {
-    color: var(--blue);
-
-    font-weight: 600;
-
-    margin-bottom: 10px;
-}
-
-.education-card p:not(.college) {
-    color: var(--muted);
-}
-
-
-/* =================================================
-   SKILLS
-================================================= */
-
-.skills-grid {
-    display: grid;
-
-    grid-template-columns: repeat(4, 1fr);
-
-    gap: 18px;
-}
-
-.skill-card {
-    padding: 28px;
-
-    min-height: 170px;
-
-    border: 1px solid var(--border);
-
-    border-radius: 15px;
-
-    background: var(--card);
-
-    transition: 0.35s;
-
-    position: relative;
-
-    overflow: hidden;
-}
-
-.skill-card::after {
-    content: "";
-
-    position: absolute;
-
-    width: 80px;
-    height: 80px;
-
-    background: rgba(56, 189, 248, 0.08);
-
-    border-radius: 50%;
-
-    right: -30px;
-    bottom: -30px;
-
-    transition: 0.3s;
-}
-
-.skill-card:hover {
-    transform: translateY(-7px);
-
-    border-color: rgba(56, 189, 248, 0.4);
-}
-
-.skill-card:hover::after {
-    transform: scale(1.5);
-}
-
-.skill-number {
-    color: var(--blue);
-
-    font-size: 12px;
-
-    font-weight: 700;
-}
-
-.skill-card h3 {
-    margin: 25px 0 8px;
-
-    font-size: 18px;
-}
-
-.skill-card p {
-    color: var(--muted);
-
-    font-size: 14px;
-}
-
-
-/* =================================================
-   PROJECTS
-================================================= */
-
-.project-grid {
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 22px;
-}
-
-.project-card {
-    padding: 30px;
-
-    min-height: 350px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    border: 1px solid var(--border);
-
-    border-radius: 17px;
-
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255, 255, 255, 0.055),
-            rgba(255, 255, 255, 0.02)
-        );
-
-    transition: 0.4s;
-}
-
-.project-card:hover {
-    transform: translateY(-8px);
-
-    border-color: rgba(56, 189, 248, 0.45);
-
-    box-shadow:
-        0 20px 50px rgba(0, 0, 0, 0.25);
-}
-
-
-/* project top */
-
-.project-top {
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-    margin-bottom: 30px;
-}
-
-.project-icon {
-    width: 42px;
-    height: 42px;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 10px;
-
-    color: var(--blue);
-
-    border: 1px solid rgba(56, 189, 248, 0.25);
-
-    background: rgba(56, 189, 248, 0.07);
-
-    font-size: 13px;
-
-    font-weight: 700;
-}
-
-.project-type {
-    color: var(--muted);
-
-    font-size: 10px;
-
-    letter-spacing: 2px;
-
-    font-weight: 700;
-}
-
-
-/* project title */
-
-.project-card h3 {
-    font-size: 23px;
-
-    margin-bottom: 12px;
-}
-
-
-/* project description */
-
-.project-card p {
-    color: var(--muted);
-
-    font-size: 14px;
-
-    line-height: 1.8;
-}
-
-
-/* technologies */
-
-.technology {
-    color: var(--blue);
-
-    font-size: 12px;
-
-    font-weight: 600;
-
-    margin-top: auto;
-
-    margin-bottom: 20px;
-}
-
-
-/* project button */
-
-.project-btn {
-    display: inline-block;
-
-    padding: 10px 15px;
-
-    border: 1px solid var(--border);
-
-    border-radius: 7px;
-
-    color: var(--white);
-
-    font-size: 13px;
-
-    transition: 0.3s;
-
-    text-align: center;
-}
-
-.project-btn:hover {
-    background: var(--blue);
-
-    color: #00111c;
-
-    border-color: var(--blue);
-}
-
-
-/* =================================================
-   LEARNING
-================================================= */
-
-.learning-card {
-    border: 1px solid var(--border);
-
-    border-radius: 17px;
-
-    background: var(--card);
-
-    overflow: hidden;
-}
-
-.learning-item {
-    display: flex;
-
-    gap: 25px;
-
-    padding: 30px;
-
-    border-bottom: 1px solid var(--border);
-
-    transition: 0.3s;
-}
-
-.learning-item:last-child {
-    border-bottom: none;
-}
-
-.learning-item:hover {
-    background: rgba(56, 189, 248, 0.035);
-}
-
-.learning-item > span {
-    color: var(--blue);
-
-    font-size: 13px;
-
-    font-weight: 700;
-}
-
-.learning-item h3 {
-    margin-bottom: 7px;
-}
-
-.learning-item p {
-    color: var(--muted);
-
-    font-size: 14px;
-}
-
-
-/* =================================================
-   CONTACT
-================================================= */
-
-.contact-card {
-    padding: 50px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    gap: 30px;
-
-    border-radius: 20px;
-
-    border: 1px solid rgba(56, 189, 248, 0.2);
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(56, 189, 248, 0.09),
-            rgba(139, 92, 246, 0.08)
-        );
-}
-
-.contact-small {
-    color: var(--blue);
-
-    font-size: 11px;
-
-    font-weight: 700;
-
-    letter-spacing: 3px;
-
-    margin-bottom: 10px;
-}
-
-.contact-card h2 {
-    font-size: 32px;
-
-    line-height: 1.3;
-}
-
-.contact-card h2 span {
-    color: var(--blue);
-}
-
-
-/* contact links */
-
-.contact-links {
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 10px;
-
-    min-width: 150px;
-}
-
-.contact-links a {
-    padding: 10px 15px;
-
-    text-align: center;
-
-    border: 1px solid var(--border);
-
-    border-radius: 7px;
-
-    color: var(--text);
-
-    font-size: 13px;
-
-    transition: 0.3s;
-}
-
-.contact-links a:hover {
-    color: var(--blue);
-
-    border-color: var(--blue);
-
-    transform: translateX(4px);
-}
-
-
-/* =================================================
-   FOOTER
-================================================= */
-
-footer {
-    text-align: center;
-
-    padding: 50px 20px;
-
-    border-top: 1px solid var(--border);
-
-    background: #050810;
-}
-
-.footer-logo {
-    font-size: 22px;
-
-    font-weight: 700;
-
-    margin-bottom: 8px;
-}
-
-.footer-logo span {
-    color: var(--blue);
-}
-
-footer p {
-    color: var(--muted);
-
-    font-size: 13px;
-}
-
-.copyright {
-    margin-top: 15px;
-
-    font-size: 11px;
-}
-
-
-/* =================================================
-   MOBILE
-================================================= */
-
-@media (max-width: 900px) {
-
-    .nav-links {
-        gap: 15px;
-    }
-
-    .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .project-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .about-card {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-card {
-        flex-direction: column;
-
-        align-items: flex-start;
-    }
-}
-
-
-@media (max-width: 650px) {
-
-    section {
-        padding: 75px 20px;
-    }
-
-    .navbar {
-        flex-direction: column;
-
-        gap: 20px;
-    }
-
-    .nav-links {
-        flex-wrap: wrap;
-
-        justify-content: center;
-
-        gap: 12px 18px;
-    }
-
-    .hero {
-        padding: 110px 20px 80px;
-    }
-
-    .hero h1 {
-        letter-spacing: -2px;
-    }
-
-    .hero-description {
-        font-size: 15px;
-    }
-
-    .section-title h2 {
-        font-size: 28px;
-    }
-
-    .about-card {
-        padding: 25px;
-    }
-
-    .education-card {
-        grid-template-columns: 1fr;
-
-        gap: 10px;
-
-        padding: 25px;
-    }
-
-    .skills-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .project-card {
-        min-height: 320px;
-    }
-
-    .contact-card {
-        padding: 30px;
-    }
-
-    .contact-card h2 {
-        font-size: 27px;
-    }
-
-    .contact-links {
-        width: 100%;
-    }
-}
-
-
-/* =================================================
-   SELECTION
-================================================= */
-
-::selection {
-    background: var(--blue);
-
-    color: #00111c;
-   }
+</section>
